@@ -1,0 +1,55 @@
+{
+    "wallets": [
+      {
+        "data": {
+          "handle": "tel:1333555",
+          "custom": {
+            "name": "Desmond Hume"
+          }
+        }
+      },
+      {
+        "data": {
+          "handle": "tel:1333222",
+          "custom": {
+            "name": "Jack Shephard"
+          }
+        }
+      }
+    ],
+    "anchors": [
+      {
+        "data": {
+          "handle": "acc.2001",
+          "wallet": "tel:1333555",
+          "target": "tran:1002001@tesla",
+          "custom": {
+            "documentType": "nidn",
+            "documentNumber": "587211"
+          }
+        }
+      },
+      {
+        "data": {
+          "handle": "crd.4444",
+          "wallet": "tel:1333555",
+          "target": "card:5555555555554444",
+          "custom": {
+            "cvv": "872",
+            "expiry": "05/28"
+          }
+        }
+      },
+      {
+        "data": {
+          "handle": "acc.2005",
+          "wallet": "tel:1333222",
+          "target": "tran:1002005@tesla",
+          "custom": {
+            "documentType": "nidn",
+            "documentNumber": "114824"
+          }
+        }
+      }
+    ]
+  }

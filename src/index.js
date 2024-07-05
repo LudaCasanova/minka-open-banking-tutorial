@@ -18,7 +18,6 @@ const port = 3001
 const app = express()
 
 app.use(express.json())
-
 app.use(logRequest)
 
 app.get('/', (req, res) => {
@@ -38,5 +37,5 @@ app.put('/v2/intents/:handle', asyncErrorWrapper(updateIntent))
 app.use(handleErrors)
 
 app.listen(port, () => {
-  console.log(`${bankName} running on port ${port}`)
+  console.log(`${bankName} running on  port ${port}`)
 })
